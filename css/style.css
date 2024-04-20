@@ -121,3 +121,11 @@ hr{
     }
 }
 /* #endregion */
+
+/* #region CAROUSEL */
+
+.image-carousel-position{
+    margin: 0 auto;
+}
+
+/* #endregion */
