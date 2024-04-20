@@ -13,12 +13,13 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-dark">
-    <nav class="navbar navbar-expand-lg bg-dark p-3">
+<body class="bg-mushroom">
+    <nav class="navbar navbar-expand-lg bg-strawberry p-3 navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand text-light fs-2 " href="#">BRENDA EVERS</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -37,13 +38,82 @@
         </div>
     </nav>
 
-    <section class="bg-secondary p-3">
-        <div class="container-fluid text-light">
-            <span class="fs-3 ">Perfil</span>
-            <hr>
-            <img src="" alt="">
-        </div>
-    </section>
+    <main>
+        <section class="p-3">
+            <div class="container-fluid text-light">
+                <span class="fs-4 ">Perfil</span>
+                <hr>
+                <div id="profile-grid">
+                    <div class="profile-image">
+                        <img src="img/perfilGITHUB.jpg" alt="Brenda Evers perfil" style="width: 100%;">
+                    </div>
+                    <div class="profile-text">
+                        <p class="fs-4">Brenda Evers</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic qui quibusdam placeat
+                            voluptatibus quidem praesentium harum optio facere eos velit! Incidunt tenetur, voluptate
+                            dolorem deserunt amet molestias repellendus facere porro.
+                            Quis mollitia, facere sit maxime aspernatur at est necessitatibus. Temporibus, laudantium
+                            consectetur perferendis fugit commodi praesentium quaerat, fugiat officiis eius
+                            necessitatibus ad! Officia impedit assumenda possimus odio sunt alias dolorum!</p>
+                        <p>Location: Belo Horizonte, MG, Brazil <br> Site: none</p>
+                        <div class="profile-icons">
+                            <!-- Instagram -->
+                            <a href="https://www.instagram.com/brehh_vers/" target="_blank"> <img src="img/instagram.svg"
+                                    alt="Instagram logo"></a>
+                            <!-- Twitter -->
+                            <a href="https://twitter.com/GhostZinha" target="_blank"> <img src="img/twitter.svg" alt="Twitter logo"></a>
+                            <!-- Youtube -->
+                            <a href="https://www.youtube.com/channel/UCFPlvReCTH89gvUoDccuX7A" target="_blank"> <img
+                                    src="img/youtube.svg" alt="Youtube logo"></a>
+                            <!-- User -->
+                            <img src="img/user-solid.svg" alt="User icon">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="p-3">
+            <div class="container-fluid text-light">
+                <span class="fs-4 ">Repositórios(3)</span>
+                <hr>
+                <div id="repo-grid">
+                    <div class="card border-light rounded" style="width: 18rem;">
+                        <img src="img/frog-1.jpg" class="card-img-top" alt="Princess rain-frog">
+                        <div class="card-body bg-salmon-candy">
+                            <h5 class="card-title">Frogs are cute!!</h5>
+                            <p class="card-text">Site made with bootstrap about something I really love: FROGS!</p>
+                        </div>
+                        <div class="text-center card-footer bg-salmon-candy">
+                            <a href="#" class="btn btn-strawberry" target="_blank">View repo</a>
+                        </div>
+                    </div>
+                    <div class="card border-light rounded" style="width: 18rem;">
+                        <img src="img/logo-bookstan.png" class="card-img-top bg-transparent" alt="Bookstan logo">
+                        <div class="card-body bg-salmon-candy">
+                            <h5 class="card-title">Bookstan</h5>
+                            <p class="card-text">Just testing HTML and CSS knowledgment</p>
+                        </div>
+                        <div class="text-center  card-footer bg-salmon-candy">
+                            <a href="#" class="btn btn-strawberry" target="_blank">View repo</a>
+                        </div>
+                    </div>
+                    <div class="card border-light rounded" style="width: 18rem;">
+                        <img src="img/frog-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-salmon-candy">
+                            <h5 class="card-title">Frogs are cute!!</h5>
+                            <p class="card-text">Site made with bootstrap about something I really love: FROGS!</p>
+                        </div>
+                        <div class="text-center  card-footer bg-salmon-candy">
+                            <a href="#" class="btn btn-strawberry" target="_blank">View repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
 </body>
 
 </html>
