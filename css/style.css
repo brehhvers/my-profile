@@ -46,7 +46,7 @@ hr{
 
 /* #endregion */
 
-/* #region First section*/
+/* #region PROFILE*/
 #profile-grid{
     display: grid;
     grid-template-areas:  "image text";
@@ -91,7 +91,7 @@ hr{
 }
 /* #endregion */
 
-/* #region Second section */
+/* #region REPOSITORY */
 .card{
     overflow: hidden;
 }
