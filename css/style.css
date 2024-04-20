@@ -103,12 +103,16 @@ hr{
 }
 
 #repo-grid > div{
-    margin: 0 auto;
+    margin: 0 20px;
 }
 
 @media screen and (max-width: 560px){
-    .repo-grid{
+    #repo-grid{
+        flex-direction: column;
+    }
 
+    #repo-grid > div{
+        margin: 8% auto;
     }
 }
 /* #endregion */
