@@ -129,7 +129,28 @@ hr{
 }
 
 .bg-carousel{
-    background-image: radial-gradient(#da2644 40%, #d0cf75 70% );
+    background-image: radial-gradient(#f8764e 40%, #d0cf75 70% );
 }
 
+/* #endregion */
+
+/* #region TEAM */
+    .team-section{
+        width: 100%;
+        display: flex;
+    }
+
+    .team-section div{
+        margin: 0 20px;
+    }
+
+    .team-image-limit{
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .team-image-limit img{
+        width: 100px;
+    }
 /* #endregion */
