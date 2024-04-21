@@ -24,7 +24,11 @@ hr{
 }
 
 .bg-mushroom{
-    background-color: #d0cf75;
+    background-color: #a7c957;
+}
+
+.bg-sweet-green{
+    background-color: #f2e8cf !important;
 }
 
 .border-sweet-strawberry{
@@ -38,10 +42,6 @@ hr{
 
 .btn-strawberry:hover{
     background-color: #790619 !important;
-}
-
-.card, .card-body p, .card-body h5{
-    color: aliceblue;
 }
 
 /* #endregion */
@@ -129,7 +129,7 @@ hr{
 }
 
 .bg-carousel{
-    background-image: radial-gradient(#f8764e 40%, #d0cf75 70% );
+    background-image: radial-gradient(#386641 40%, #a7c957 70% );
 }
 
 /* #endregion */
@@ -152,5 +152,19 @@ hr{
 
     .team-image-limit img{
         width: 100px;
+    }
+
+    @media screen and (max-width: 560px){
+        .team-section{
+            flex-wrap: wrap;
+            height: fit-content;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .team-section div{
+            margin: 10px 10px;
+        }
+
     }
 /* #endregion */
