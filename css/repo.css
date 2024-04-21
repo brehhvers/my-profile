@@ -1,0 +1,20 @@
+body{
+    height: 100%;
+}
+
+main{
+    height: 82.6vh;
+}
+
+.list-decoration{
+    list-style:none;
+    padding: 0;
+}
+.list-decoration li{
+    margin: 0 6px;
+    padding: 5px 10px;
+    background-color: #f2e8cf;
+    border-radius: 15px;
+    border: solid 1px #bc4749;
+    color: #bc4749;
+}
