@@ -2,9 +2,12 @@ body{
     height: 100%;
 }
 
-main{
-    height: 82.6vh;
+@media screen and (max-width: 560px){
+    main{
+        height: 82.6vh;
+    }
 }
+
 
 .list-decoration{
     list-style:none;
