@@ -1,0 +1,22 @@
+{
+    "repositories": [
+        {
+            "id":1,
+            "image":"http://127.0.0.1:5500/assets/img/frog-1.jpg",
+            "title":"Frogs are cute!!",
+            "description":"Site made with bootstrap about something I really love: FROGS!"
+        },
+        {
+            "id":2,
+            "image":"http://127.0.0.1:5500/assets/img/logo-bookstan.png",
+            "title":"Bookstan",
+            "description":"Site made with bootstrap about something I really love: FROGS!"
+        },
+        {
+            "id":3,
+            "image":"http://127.0.0.1:5500/assets/img/crop_perfilPUC%20(1).jpg",
+            "title":"Curriculum Vitae",
+            "description":"A curriculum vitae site made only with HTML"
+        }
+    ]
+  }
