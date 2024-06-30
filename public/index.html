@@ -11,6 +11,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script defer src="assets/scripts/app.js"></script>
 
     <!-- Site metadata -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,29 +62,24 @@
                 <hr>
                 <div id="profile-grid">
                     <div class="profile-image">
-                        <img src="assets/img/perfilGITHUB.jpg" alt="Brenda Evers perfil" style="width: 100%;">
+                        <img alt="Brenda Evers perfil" style="width: 100%;" id="avatar">
                     </div>
                     <div class="profile-text">
-                        <p class="fs-4">Brenda Evers</p>
-                        <p>Olá! Meu nome é Brenda Evers! É um prazer tê-lo aqui comigo.<br>Vamos para as
-                            apresentações... Tenho 17 anos e nasci na cidade de Mafra-SC. Atualmente estou cursando
-                            Engenharia de Software na PUC-Minas.<br>Por que entrei no mundo da tecnologia da informação?
-                            É simples, sou profundamente apaixonada pelas infinitas possibilidades que a TI oferece.
-                            Este é um campo repleto de oportunidades para inovação e impacto positivo. Busco maneiras de
-                            contribuir para o mundo em que vivemos e encontrar soluções para os desafios que nos cercam.
-                        </p>
-                        <p>Localização: Belo Horizonte, MG, Brazil <br> Site: nenhum</p>
+                        <p class="fs-4" id="nome"></p>
+                        <p id="bio"></p>
+                        <p>Atualmente moro em <span id="localizacao"></span></p>
+                        <p>Este é meu website! (Mas você já está nele kkk) <br> <a id="website"></a> </p>
+                        <p>Faço estágio na <span id="empresa"></span></p>
                         <div class="profile-icons">
                             <!-- Instagram -->
                             <a href="https://www.instagram.com/brehh_vers/" target="_blank"> <img
                                     src="assets/img/instagram.svg" alt="Instagram logo"></a>
-                            <!-- Twitter -->
-                            <a href="#" target="_blank"> <img src="assets/img/twitter.svg" alt="Twitter logo"></a>
                             <!-- Youtube -->
                             <a href="https://www.youtube.com/channel/UCFPlvReCTH89gvUoDccuX7A" target="_blank"> <img
                                     src="assets/img/youtube.svg" alt="Youtube logo"></a>
                             <!-- User -->
                             <img src="assets/img/user-solid.svg" alt="User icon">
+                            <p class="fs-3" id="seguidores"></p>
                         </div>
                     </div>
                 </div>
@@ -94,13 +90,10 @@
         <!-- #region REPOSITORY -->
         <section class="p-3">
             <div class="container-fluid text-light">
-                <span class="fs-4 ">Repositórios(3)</span>
+                <span class="fs-4 ">Check 5 repositórios</span>
                 <hr>
                 <div id="repo-grid">
-                    <div class="card border-light rounded shadow" style="width: 18rem;">
-                        <div class="limit-image-card">
-                            <img src="assets/img/frog-1.jpg" class="card-img-top " alt="Princess rain-frog" height="100%">
-                        </div>
+                    <!-- <div class="card border-light rounded shadow" style="width: 18rem;">
                         <div class="card-body bg-sweet-green">
                             <h5 class="card-title">Frogs are cute!!</h5>
                             <p class="card-text">Site made with bootstrap about something I really love: FROGS!</p>
@@ -108,32 +101,7 @@
                         <div class="text-center card-footer bg-sweet-green">
                             <a href="frogs-are-cute.html" class="btn btn-strawberry" target="_blank">Ver detalhes</a>
                         </div>
-                    </div>
-                    <div class="card border-light rounded shadow" style="width: 18rem;">
-                        <div class="limit-image-card">
-                            <img src="assets/img/logo-bookstan.png" class="card-img-top" alt="Bookstan logo">
-                        </div>
-                        <div class="card-body bg-sweet-green">
-                            <h5 class="card-title">Bookstan</h5>
-                            <p class="card-text">Just testing HTML and CSS knowledgment</p>
-                        </div>
-                        <div class="text-center card-footer bg-sweet-green">
-                            <a href="bookstan.html" class="btn btn-strawberry" target="_blank">Ver detalhes</a>
-                        </div>
-                    </div>
-                    <div class="card border-light rounded shadow" style="width: 18rem;">
-                        <div class=" limit-image-card">
-                            <img src="assets/img/crop_perfilPUC (1).jpg" class="card-img-top" alt="Bookstan logo">
-                        </div>
-                        <div class="card-body bg-sweet-green">
-                            <h5 class="card-title">Curriculum Vitae</h5>
-                            <p class="card-text">A curriculum vitae site made only with HTML</p>
-                        </div>
-                        <div class="text-center card-footer bg-sweet-green">
-                            <a href="curriculum-vitae.html" class="btn btn-strawberry" target="_blank">Ver
-                                detalhes</a>
-                        </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -154,16 +122,16 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="assets/img/frogs-are-cute-preview.jpg" class="d-block w-75 image-carousel-position"
-                                alt="frogs are cute site preview">
+                            <img src="assets/img/frogs-are-cute-preview.jpg"
+                                class="d-block w-75 image-carousel-position" alt="frogs are cute site preview">
                         </div>
                         <div class="carousel-item">
                             <img src="assets/img/bookstan-preview.jpg" class="d-block w-75 image-carousel-position"
                                 alt="bookstan site preview">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/img/curriculum-vitae-preview.jpg" class="d-block w-75 image-carousel-position"
-                                alt="curriculum vitae site preview">
+                            <img src="assets/img/curriculum-vitae-preview.jpg"
+                                class="d-block w-75 image-carousel-position" alt="curriculum vitae site preview">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"

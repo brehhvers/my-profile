@@ -111,6 +111,17 @@ hr{
     overflow: hidden;
 }
 
+@media screen and (max-width: 900px){
+    #repo-grid{
+        flex-direction: column;
+    }
+
+    #repo-grid > div{
+        margin: 8% auto;
+        width: 80% !important;
+    }
+}
+
 @media screen and (max-width: 560px){
     #repo-grid{
         flex-direction: column;

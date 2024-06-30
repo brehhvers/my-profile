@@ -1,22 +1,80 @@
 {
     "repositories": [
         {
-            "id":1,
-            "image":"http://127.0.0.1:5500/assets/img/frog-1.jpg",
-            "title":"Frogs are cute!!",
-            "description":"Site made with bootstrap about something I really love: FROGS!"
+            "id": 1,
+            "image": "http://127.0.0.1:5500/assets/img/frog-1.jpg",
+            "title": "Frogs are cute!!",
+            "description": "Site made with bootstrap about something I really love: FROGS!"
         },
         {
-            "id":2,
-            "image":"http://127.0.0.1:5500/assets/img/logo-bookstan.png",
-            "title":"Bookstan",
-            "description":"Site made with bootstrap about something I really love: FROGS!"
+            "id": 2,
+            "image": "http://127.0.0.1:5500/assets/img/logo-bookstan.png",
+            "title": "Bookstan",
+            "description": "Site made with bootstrap about something I really love: FROGS!"
         },
         {
-            "id":3,
-            "image":"http://127.0.0.1:5500/assets/img/crop_perfilPUC%20(1).jpg",
-            "title":"Curriculum Vitae",
-            "description":"A curriculum vitae site made only with HTML"
+            "id": 3,
+            "image": "http://127.0.0.1:5500/assets/img/crop_perfilPUC%20(1).jpg",
+            "title": "Curriculum Vitae",
+            "description": "A curriculum vitae site made only with HTML"
+        }
+    ],
+    "albuns": [
+        {
+            "id": 1,
+            "titulo": "Projeto Fotografia",
+            "descricao": "Álbum com fotos incríveis da natureza.",
+            "capa_url": "https://exemplo.com/capa_album1.jpg",
+            "url": "https://exemplo.com/album1"
+        },
+        {
+            "id": 2,
+            "titulo": "Desenvolvimento Web",
+            "descricao": "Projetos de desenvolvimento web front-end e back-end.",
+            "capa_url": "https://exemplo.com/capa_album2.jpg",
+            "url": "https://exemplo.com/album2"
+        }
+    ],
+    "fotos": [
+        {
+            "id": 1,
+            "titulo": "Pôr do Sol na Praia",
+            "descricao": "Uma bela foto do pôr do sol na praia.",
+            "url": "https://exemplo.com/foto1.jpg"
+        },
+        {
+            "id": 2,
+            "titulo": "Montanhas Rochosas",
+            "descricao": "Paisagem de tirar o fôlego das Montanhas Rochosas.",
+            "url": "https://exemplo.com/foto2.jpg"
+        }
+    ],
+    "destaques": [
+        {
+            "id": 1,
+            "titulo": "App Mobile Inovador",
+            "descricao": "Desenvolvemos um aplicativo mobile inovador para conectar pessoas.",
+            "url": "https://exemplo.com/app"
+        },
+        {
+            "id": 2,
+            "titulo": "Site Premiado",
+            "descricao": "Nosso site recebeu um prêmio de melhor design e usabilidade.",
+            "url": "https://exemplo.com/site"
+        }
+    ],
+    "colegas": [
+        {
+            "id": 1,
+            "foto_url": "https://exemplo.com/foto_colega1.jpg",
+            "nome": "João Silva",
+            "github_url": "https://github.com/joaosilva"
+        },
+        {
+            "id": 2,
+            "foto_url": "https://exemplo.com/foto_colega2.jpg",
+            "nome": "Maria Souza",
+            "github_url": "https://github.com/mariasouza"
         }
     ]
-  }
+}
