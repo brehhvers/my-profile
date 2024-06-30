@@ -1,24 +1,4 @@
 {
-    "repositories": [
-        {
-            "id": 1,
-            "image": "http://127.0.0.1:5500/assets/img/frog-1.jpg",
-            "title": "Frogs are cute!!",
-            "description": "Site made with bootstrap about something I really love: FROGS!"
-        },
-        {
-            "id": 2,
-            "image": "http://127.0.0.1:5500/assets/img/logo-bookstan.png",
-            "title": "Bookstan",
-            "description": "Site made with bootstrap about something I really love: FROGS!"
-        },
-        {
-            "id": 3,
-            "image": "http://127.0.0.1:5500/assets/img/crop_perfilPUC%20(1).jpg",
-            "title": "Curriculum Vitae",
-            "description": "A curriculum vitae site made only with HTML"
-        }
-    ],
     "albuns": [
         {
             "id": 1,
@@ -38,15 +18,21 @@
     "fotos": [
         {
             "id": 1,
-            "titulo": "Pôr do Sol na Praia",
-            "descricao": "Uma bela foto do pôr do sol na praia.",
-            "url": "https://exemplo.com/foto1.jpg"
+            "titulo": "Frogs are cute!!",
+            "descricao": "Um site com tema de sapinhos só porque amo sapos :>",
+            "url": "../public/assets/img/frogs-are-cute-preview.jpg"
         },
         {
             "id": 2,
-            "titulo": "Montanhas Rochosas",
-            "descricao": "Paisagem de tirar o fôlego das Montanhas Rochosas.",
-            "url": "https://exemplo.com/foto2.jpg"
+            "titulo": "Bookstan",
+            "descricao": "Sugestões de livros",
+            "url": "../public/assets/img/bookstan-preview.jpg"
+        },
+        {
+            "id": 3,
+            "titulo": "Curriculum vitae",
+            "descricao": "Meu currículo com html, mas está desatualizado :(",
+            "url": "../public/assets/img/curriculum-vitae-preview.jpg"
         }
     ],
     "destaques": [

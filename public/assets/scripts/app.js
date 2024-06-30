@@ -31,7 +31,6 @@ const view_repositorios = document.querySelector('#repo-grid');
 fetch(`https://api.github.com/users/${usuario}/repos?per_page=5`)
   .then(resposta => resposta.json())
   .then(repos => {
-    console.log(repos);
     for (const repo of repos) {
       const card = document.createElement('div');
       card.classList.add('card', 'border-light', 'rounded', 'shadow');
@@ -52,7 +51,7 @@ fetch(`https://api.github.com/users/${usuario}/repos?per_page=5`)
       cardFooter.classList.add('text-center', 'card-footer', 'bg-sweet-green');
 
       const estrelas = document.createElement('p');
-      estrelas.textContent = `Estrelas: ${repo.stargazers_count}`; 
+      estrelas.textContent = `Estrelas: ${repo.stargazers_count}`;
 
       const forks = document.createElement('p');
       forks.textContent = `Forks: ${repo.forks_count}`;
@@ -61,16 +60,26 @@ fetch(`https://api.github.com/users/${usuario}/repos?per_page=5`)
       link.href = repo.html_url;
       link.classList.add('btn', 'btn-strawberry');
       link.target = '_blank';
-      link.textContent = 'Ver detalhes';
+      link.textContent = 'Ver no github';
+      link.classList.add('w-100', 'mb-1');
+
+      const link2 = document.createElement('a');
+      link2.classList.add('btn', 'btn-strawberry');
+      link2.target = '_blank';
+      link2.textContent = "Pré-visualização";
+      link2.classList.add('w-100', 'mb-1');
+      link2.addEventListener('click', () => {
+        window.location.href = `repo.html?repositorio=${repo.name}`;
+      });
 
       cardBody.appendChild(titulo);
       cardBody.appendChild(descricao);
       cardBody.appendChild(estrelas);
       cardBody.appendChild(forks);
       cardFooter.appendChild(link);
+      cardFooter.appendChild(link2);
       card.appendChild(cardBody);
       card.appendChild(cardFooter);
-
       view_repositorios.appendChild(card);
     }
   })
